@@ -1,0 +1,17 @@
+{
+    "name": "kizilare/memcached",
+    "type": "library",
+    "description": "Memcached adapter",
+    "homepage": "http://kizilare.net",
+    "require": {
+        "php": ">=5.3.0",
+        "kizilare/framework": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kizilare\\Template\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

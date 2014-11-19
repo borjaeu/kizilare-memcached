@@ -1,5 +1,5 @@
 <?php
-namespace Kizilare\Cache\Memcached;
+namespace Kizilare\Cache;
 
 class Memcached
 {

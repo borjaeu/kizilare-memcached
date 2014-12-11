@@ -24,6 +24,11 @@ class Memcached
      */
     protected $thread_id;
 
+    /**
+     * Constructor.
+     *
+     * @param string $thread_id
+     */
     public function __construct( $thread_id )
     {
         $this->thread_id = $thread_id;
@@ -33,10 +38,9 @@ class Memcached
     }
 
     /**
-     * loads the script information.
+     * Gets data from cache.
      *
      * @param string $key
-     *
      * @return array
      */
     public function get( $key )

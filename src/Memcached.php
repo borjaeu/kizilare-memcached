@@ -33,7 +33,7 @@ class Memcached
     {
         $this->thread_id = $thread_id;
         $this->connection = new \Memcached();
-        $servers = \Kizilare\Framework\App::getInstance()->getConfig( 'memcached' );
+        $servers = \Kizilare\Framework\Config::getInstance()->get( 'memcached' );
         $this->connection->addServers( $servers );
     }
 
